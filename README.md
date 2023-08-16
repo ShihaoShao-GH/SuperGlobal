@@ -5,4 +5,4 @@ Leveraging global features only, our series of methods contribute to state-of-th
 
 Working In Progress...🚧🚧🚧
 
-![image](https://github.com/ShihaoShao-GH/SuperGlobal/edit/main/1.gif)
+![image](https://github.com/ShihaoShao-GH/SuperGlobal/blob/main/1.gif)
