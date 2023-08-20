@@ -33,3 +33,6 @@ Many thanks to [CVNet](https://github.com/sungonce/CVNet), [DELG-pytorch](https:
 where we found resources to build our repository 
 and they inspired us to have this work published!
 
+## Contact us
+
+Feel free to reach out our co-corresponding authors at shaoshihao@pku.edu.cn, bingyi@google.com.
