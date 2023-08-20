@@ -35,4 +35,4 @@ and they inspired us to have this work published!
 
 ## Contact us
 
-Feel free to reach out our co-corresponding authors at shaoshihao@pku.edu.cn and bingyi@google.com.
+Feel free to reach out our co-corresponding authors at shaoshihao@pku.edu.cn, and bingyi@google.com.
