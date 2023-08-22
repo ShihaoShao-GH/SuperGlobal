@@ -6,6 +6,21 @@
 
 ICCV' 23 Paper *Global Features are All You Need for Image Retrieval and Reranking* Official Repository🚀🚀🚀
 
+
+> Image retrieval systems conventionally use a two-stage paradigm, leveraging global features for initial retrieval and local features for
+> reranking. However, the scalability of this method is often limited due to the significant storage and computation cost incurred by local
+> feature matching in the reranking stage. In this paper, we present SuperGlobal, a novel approach that exclusively employs global features
+> for both stages, improving efficiency without sacrificing accuracy. SuperGlobal introduces key enhancements to the retrieval system,
+> specifically focusing on the global feature extraction and reranking processes. For extraction, we identify sub-optimal performance when the
+> widely-used ArcFace loss and Generalized Mean (GeM) pooling methods are combined and propose several new modules to improve GeM pooling. In
+> the reranking stage, we introduce a novel method to update the global features of the query and top-ranked images by only considering
+> feature refinement with a small set of images, thus being very compute and memory efficient. Our experiments demonstrate substantial
+> improvements compared to the state of the art in standard benchmarks. Notably, on the Revisited Oxford+1M Hard dataset, our single-stage
+> results improve by 7.1%, while our two-stage gain reaches 3.7% with a strong 64,865x speedup. Our two-stage system surpasses the current
+> single-stage state-of-the-art by 16.3%, offering a scalable, accurate alternative for high-performing image retrieval systems with minimal
+> time overhead.
+
+
 Leveraging global features only, our series of methods contribute to state-of-the-art performance in ROxford (+1M), RParis (+1M), and GLD test set with orders-of-magnitude speedup.
 
 ## Demo
