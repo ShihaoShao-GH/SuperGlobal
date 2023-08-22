@@ -2,6 +2,8 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/global-features-are-all-you-need-for-image/image-retrieval-on-roxford-hard)](https://paperswithcode.com/sota/image-retrieval-on-roxford-hard?p=global-features-are-all-you-need-for-image)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/global-features-are-all-you-need-for-image/image-retrieval-on-rparis-hard)](https://paperswithcode.com/sota/image-retrieval-on-rparis-hard?p=global-features-are-all-you-need-for-image)
 
+
+
 ICCV' 23 Paper *Global Features are All You Need for Image Retrieval and Reranking* Official Repository🚀🚀🚀
 
 Leveraging global features only, our series of methods contribute to state-of-the-art performance in ROxford (+1M), RParis (+1M), and GLD test set with orders-of-magnitude speedup.
