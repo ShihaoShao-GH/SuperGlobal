@@ -1,4 +1,9 @@
 # SuperGlobal
+
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2308.06954)
+
+
+
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/global-features-are-all-you-need-for-image/image-retrieval-on-roxford-hard)](https://paperswithcode.com/sota/image-retrieval-on-roxford-hard?p=global-features-are-all-you-need-for-image)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/global-features-are-all-you-need-for-image/image-retrieval-on-rparis-hard)](https://paperswithcode.com/sota/image-retrieval-on-rparis-hard?p=global-features-are-all-you-need-for-image)
 
