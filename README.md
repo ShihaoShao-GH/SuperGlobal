@@ -9,7 +9,7 @@
 
 
 
-ICCV' 23 Paper *Global Features are All You Need for Image Retrieval and Reranking* Official Repository🚀🚀🚀
+ICCV 2023 Paper *Global Features are All You Need for Image Retrieval and Reranking* Official Repository🚀🚀🚀
 
 
 > Image retrieval systems conventionally use a two-stage paradigm, leveraging global features for initial retrieval and local features for
