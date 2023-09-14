@@ -28,10 +28,15 @@ ICCV 2023 Paper *Global Features are All You Need for Image Retrieval and Rerank
 
 Leveraging global features only, our series of methods contribute to state-of-the-art performance in ROxford (+1M), RParis (+1M), and GLD test set with orders-of-magnitude speedup.
 
+## News
+
+9/14/2023 Evaluation code on 1M is released!
+
 ## Demo
 
 ![image](https://github.com/ShihaoShao-GH/SuperGlobal/blob/main/demo.gif)
 
+   
 ## Results Reproduce
 
 1) Download Revisited Oxford & Paris from https://github.com/filipradenovic/revisitop, and
@@ -41,10 +46,19 @@ save to path `./revisitop`.
 
 3) Run 
 
-`python test.py MODEL.DEPTH [50, 101] TEST.WEIGHTS ./revisitop TEST.DATA_DIR ./weights
-SupG.gemp SupG.rgem SupG.sgem SupG.relup SupG.rerank`
+`python test.py MODEL.DEPTH [50, 101] TEST.WEIGHTS ./weights TEST.DATA_DIR ./revisitop
+SupG.gemp SupG.rgem SupG.sgem SupG.relup SupG.rerank SupG.onemeval False`
 
 And you will get the exact reported results in `log.txt`.
+
+## Evaluation on 1M distractors
+
+1) Run `python ./extract_rop1m.py --weight [path-to-weight] --depth [depth]`, and it gives you a `.pth` file in the current path.
+
+2) Run `python test.py MODEL.DEPTH [50, 101] TEST.WEIGHTS ./weights TEST.DATA_DIR ./revisitop
+SupG.gemp SupG.rgem SupG.sgem SupG.relup SupG.rerank SupG.onemeval`
+
+3) See results in `log.txt`.
 
 ## Application
 
