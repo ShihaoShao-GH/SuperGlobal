@@ -39,4 +39,4 @@ def __main__():
         model = setup_model()
         # Load checkpoint
         checkpoint.load_checkpoint(cfg.TEST.WEIGHTS, model)
-        test_model(model, cfg.TEST.DATA_DIR, cfg.TEST.DATASET_LIST, cfg.TEST.SCALE_LIST, cfg.SupG.rerank, cfg.SupG.gemp, cfg.SupG.rgem, cfg.SupG.sgem, logger)
+        test_model(model, cfg.TEST.DATA_DIR, cfg.TEST.DATASET_LIST, cfg.TEST.SCALE_LIST, cfg.SupG.rerank, cfg.SupG.gemp, cfg.SupG.rgem, cfg.SupG.sgem, cfg.SupG.onemeval, cfg.MODEL.DEPTH, logger)

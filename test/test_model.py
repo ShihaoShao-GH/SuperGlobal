@@ -13,7 +13,7 @@ from modules.reranking.MDescAug import MDescAug
 from modules.reranking.RerankwMDA import RerankwMDA
 import torch 
 @torch.no_grad()
-def test_model(model, data_dir, dataset_list, scale_list, is_rerank, gemp, rgem, sgem, logger):
+def test_model(model, data_dir, dataset_list, scale_list, is_rerank, gemp, rgem, sgem, onemeval, depth, logger):
     torch.backends.cudnn.benchmark = False
     model.eval()
     
@@ -44,8 +44,11 @@ def test_model(model, data_dir, dataset_list, scale_list, is_rerank, gemp, rgem,
         cfg = config_gnd(dataset,data_dir)
         Q = torch.tensor(Q).cuda()
         X = torch.tensor(X).cuda()
+        
         print("perform global feature reranking")
-
+        if onemeval:
+            X_expand = torch.load(f"./feats_1m_RN{depth}.pth").cuda()
+            X = torch.concat([X,X_expand],0)
         sim = torch.matmul(X, Q.T) # 6322 70
         ranks = torch.argsort(-sim, axis=0) # 6322 70
         if is_rerank:
